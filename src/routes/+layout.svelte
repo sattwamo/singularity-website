@@ -1,7 +1,8 @@
 <script>
     import "../app.css";
-  import Footer from "../components/Footer.svelte";
+  import Mobnav from "../components/Mobnav.svelte";
   import Header from "../components/Header.svelte";
+  import Footer from "../components/Footer.svelte";
 
     let y;
     let tabs = [
@@ -33,7 +34,8 @@
 
     <Header y={y} tabs={tabs}/>
     <slot />
-    <Footer y={y} tabs={tabs}/>
+    <Footer />
+    <Mobnav y={y} tabs={tabs}/>
 
 </div>
 

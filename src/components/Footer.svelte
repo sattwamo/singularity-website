@@ -1,17 +1,19 @@
-<script>
-    export let y;
-    export let tabs;
-</script>
-
-<footer class={"block sm:hidden sticky z-[10] bottom-0 duration-200 px-6 flex items-center justify-between border border-solid w-full " + (y > 0 ?
-    "py-4 bg-slate-950 border-transparent" :
-    "py-6 bg-transparent border-transparent")}>
-
-    <div class="flex items-center gap-10 mx-auto justify-between">
-        {#each tabs as tab, index}
-            <a href={tab.link} class="duration-200 hover:text-violet-400">
-                <i class={tab.icon}></i>
+<footer class="py-20 sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center">
+    <p class="px-4 py-2 bg-white text-slate-950 font-medium">
+        Get in touch &darr;
+    </p>
+    <div class="flex flex-col gap-4 items-center justify-center">
+        <p><b class="pr-2">Email:</b>singularity@iiserkol.ac.in</p>
+        <p><b class="pr-2">Github:</b>
+            <a class="text-violet-400" target="_blank" href="https://github.com/Singularity-Astro-Club-of-IISER-K">
+                Singularity-Astro-Club-of-IISER-K
             </a>
-        {/each}
+        </p>
+        <p><b class="pr-2">LinkedIn:</b>
+            <a class="text-violet-400" target="_blank" href="#">
+                x
+            </a>
+        </p>
     </div>
+
 </footer>

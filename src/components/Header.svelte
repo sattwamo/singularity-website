@@ -1,11 +1,11 @@
 <script>
     export let y;
+    export let tabs;
 
-    let tabs = [
-        {name: 'About Us', link: "#about"},
-        {name: 'Events', link: "#events"},
-        {name: 'Team', link: "#team"},
-    ]
+    let clicked = false;
+
+    const isClicked = () => clicked = !clicked;
+
 </script>
 
 <header class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border border-solid " + 
@@ -22,8 +22,10 @@
             </a>
         {/each}
     </div>
-    <a href="#" target="_blank" class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950">
+        
+    <!-- <a href="#" target="_blank" class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950 hidden sm:block">
         <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
         <h4 class="relative z-9">Get in touch</h4>
-    </a>
+    </a> -->
 </header>
+

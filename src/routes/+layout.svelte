@@ -4,6 +4,13 @@
   import Header from "../components/Header.svelte";
 
     let y;
+    let tabs = [
+        {name: 'About Us', link: "#about", icon: "fa-solid fa-house"},
+        {name: 'Events', link: "#events", icon: "fa-regular fa-calendar-days"},
+        {name: 'Team', link: "#team", icon: "fa-solid fa-people-group"},
+        {name: 'Contact Us', link: "#contact", icon: "fa-solid fa-paper-plane"},
+    ]
+
     let innerHeight = 0;
     let innerWidth = 0;
 
@@ -24,9 +31,9 @@
         </button>    
     </div>
 
-    <Header y={y}/>
+    <Header y={y} tabs={tabs}/>
     <slot />
-    <Footer />
+    <Footer y={y} tabs={tabs}/>
 
 </div>
 

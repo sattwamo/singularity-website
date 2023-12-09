@@ -14,7 +14,7 @@
             </div>
             <div class="relative shadow-2xl grid place-items-center">
 
-                    <img src="src/assets/main-1.jpeg" alt="front-pic"/>
+                    <img src={"images/main-1.jpeg"} alt="front-pic"/>
             </div>
 
         <!-- </Card> -->

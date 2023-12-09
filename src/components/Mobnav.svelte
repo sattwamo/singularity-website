@@ -9,7 +9,7 @@
 
     <div class="flex items-center gap-10 mx-auto justify-between">
         {#each tabs as tab, index}
-            <a href={tab.link} class="duration-200 hover:text-violet-400">
+            <a href={tab.link} class="duration-200 hover:text-yellow-400">
                 <i class={tab.icon}></i>
             </a>
         {/each}

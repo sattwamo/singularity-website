@@ -1,5 +1,5 @@
 <script>
-    import Card from "./Card.svelte";
+
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -8,16 +8,16 @@
 
             <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
                 <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                    About the <span class="poppins text-violet-400">Club</span>
+                    The <span class="poppins text-yellow-400">Astronomy</span> Club
+                    of IISER <span class="poppins text-yellow-400">Kolkata</span>
                 </h2>
-            <div class="h-[100rem]">
-                xyz
             </div>
+            <div class="relative shadow-2xl grid place-items-center">
+
+                    <img src="src/assets/main-1.jpeg" alt="front-pic"/>
             </div>
 
         <!-- </Card> -->
     </section>
-    <section>
-        hello
-    </section>
+
 </main>

@@ -13,7 +13,7 @@
         "py-4 bg-slate-950 border-transparent" :
         "py-6 bg-transparent border-transparent")}>
     <h1 class="font-medium">
-        <b class="font-bold poppins">Singularity</b> Logo
+        <b class="font-bold poppins">Singularity</b>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}

@@ -3,12 +3,11 @@
   import Mobnav from "../components/Mobnav.svelte";
   import Header from "../components/Header.svelte";
   import Footer from "../components/Footer.svelte";
-  import About from "../components/About.svelte";
 
     let y;
     let tabs = [
-        {name: 'About Us', link: "#about", icon: "fa-solid fa-house"},
         {name: 'Events', link: "#events", icon: "fa-regular fa-calendar-days"},
+        {name: 'About Us', link: "#about", icon: "fa-solid fa-book"},
         {name: 'Team', link: "#team", icon: "fa-solid fa-people-group"},
         {name: 'Contact Us', link: "#contact", icon: "fa-solid fa-paper-plane"},
     ]
@@ -35,7 +34,7 @@
 
     <Header y={y} tabs={tabs}/>
     <slot />
-    <About />
+    <!-- <About /> -->
     <Footer />
     <Mobnav y={y} tabs={tabs}/>
 

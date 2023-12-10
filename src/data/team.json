@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Name1", 
+        "designation": "desig1", 
+        "image": "images/prof-1.jpeg",
+        "email": "email1",
+        "about": "about1"
+    },
+
+    {
+        "name": "Name2", 
+        "designation": "desig2", 
+        "image": "images/prof-2.jpeg",
+        "email": "email2",
+        "about": "about2"
+    },
+
+    {
+        "name": "Name3", 
+        "designation": "desig3", 
+        "image": "images/prof-3.webp",
+        "email": "email3",
+        "about": "about3"
+    }
+]
